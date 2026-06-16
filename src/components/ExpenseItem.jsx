@@ -1,6 +1,6 @@
 import React from "react";
 import { useBudget } from "../context/BudgetContext";
-import { categoryMeta, formatCurrency } from "../utils/helpers";
+import { categoryMeta, formatCurrency } from "../utils/Helpers";
 
 export default function ExpenseItem({ expense }) {
   const { deleteExpense } = useBudget();

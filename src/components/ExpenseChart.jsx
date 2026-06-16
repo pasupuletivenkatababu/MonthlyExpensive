@@ -1,7 +1,7 @@
 import React from "react";
 import { PieChart, Pie, Cell, ResponsiveContainer, Tooltip, Legend } from "recharts";
 import { useBudget } from "../context/BudgetContext";
-import { formatCurrency } from "../utils/helpers";
+import { formatCurrency } from "../utils/Helpers";
 
 export default function ExpenseChart() {
   const { byCategory, totalSpent } = useBudget();

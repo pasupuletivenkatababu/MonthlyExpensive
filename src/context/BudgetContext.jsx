@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useReducer, useMemo } from "react";
-import { categoryMeta } from "../utils/helpers";
+import { categoryMeta } from "../utils/Helpers";
 
 const BudgetContext = createContext(null);
 

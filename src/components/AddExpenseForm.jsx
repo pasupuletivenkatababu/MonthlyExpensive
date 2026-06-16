@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useBudget } from "../context/BudgetContext";
-import { CATEGORIES } from "../utils/helpers";
+import { CATEGORIES } from "../utils/Helpers";
 
 export default function AddExpenseForm() {
   const { addExpense } = useBudget();

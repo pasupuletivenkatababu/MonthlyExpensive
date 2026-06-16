@@ -1,6 +1,6 @@
 import React from "react";
 import { useBudget } from "../context/BudgetContext";
-import { formatCurrency } from "../utils/helpers";
+import { formatCurrency } from "../utils/Helpers";
 
 function SummaryCard({ label, value, variant }) {
   const valueClass = variant ? `summary-value summary-value--${variant}` : "summary-value";
