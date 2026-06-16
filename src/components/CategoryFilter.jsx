@@ -1,5 +1,5 @@
 import React from "react";
-import { CATEGORIES } from "../utils/helpers";
+import { CATEGORIES } from "../utils/Helpers";
 
 export default function CategoryFilter({ active, onChange }) {
   return (
