@@ -6,7 +6,7 @@ import BudgetInput from "./components/BudgetInput";
 import BudgetSummary from "./components/BudgetSummary";
 import AddExpenseForm from "./components/AddExpenseForm";
 import ExpenseChart from "./components/ExpenseChart";
-import Expenselist from "./components/Expenselist";
+import ExpenseList from "./components/ExpenseList";
 
 export default function App() {
   return (
@@ -17,7 +17,7 @@ export default function App() {
         <BudgetSummary />
         <AddExpenseForm />
         <ExpenseChart />
-        <Expenselist />
+        <ExpenseList />
       </div>
     </BudgetProvider>
   );
