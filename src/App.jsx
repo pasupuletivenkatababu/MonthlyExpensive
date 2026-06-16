@@ -2,22 +2,22 @@ import React from "react";
 import "./index.css";
 import { BudgetProvider } from "./context/BudgetContext";
 import Header from "./components/Header";
-import Budgetinput from "./components/Budgetinput";
+import BudgetInput from "./components/BudgetInput";
 import BudgetSummary from "./components/BudgetSummary";
 import AddExpenseForm from "./components/AddExpenseForm";
 import ExpenseChart from "./components/ExpenseChart";
-import Expenselist from "./components/Expenselist";
+import ExpenseList from "./components/ExpenseList";
 
 export default function App() {
   return (
     <BudgetProvider>
       <div className="ledger-page">
         <Header />
-        <Budgetinput />
+        <BudgetInput />
         <BudgetSummary />
         <AddExpenseForm />
         <ExpenseChart />
-        <Expenselist />
+        <ExpenseList />
       </div>
     </BudgetProvider>
   );
