@@ -6,7 +6,7 @@ import BudgetInput from "./components/BudgetInput";
 import BudgetSummary from "./components/BudgetSummary";
 import AddExpenseForm from "./components/AddExpenseForm";
 import ExpenseChart from "./components/ExpenseChart";
-import Expenselist from "./components/ExpenseList";
+import Expenselist from "./components/Expenselist";
 
 export default function App() {
   return (
