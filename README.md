@@ -23,17 +23,18 @@ This project is shared publicly for portfolio, educational, and demonstration pu
 
 You are welcome to:
 
-- View the source code
-- Learn from the implementation
-- Explore the project features
+* View the source code
+* Learn from the implementation
+* Explore the project features
 
 You may not:
 
-- Copy and republish this code as your own work
-- Modify and redistribute this project without permission
-- Use this project for commercial purposes without authorization
+* Copy and republish this code as your own work
+* Modify and redistribute this project without permission
+* Use this project for commercial purposes without authorization
 
 All rights reserved by the author.
 
 © Pasupuleti Venkatababu
+
 >>>>>>> 024c1136ffeb252e072c60b8e0bd8e5df623fc60
